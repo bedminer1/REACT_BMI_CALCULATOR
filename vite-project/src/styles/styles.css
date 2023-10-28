@@ -20,4 +20,10 @@ h1 {
   outline: none;
   border-bottom: 1px solid;
   translate: 0px, 0px;
+}
+
+.bmi-container {
+  font-size: 200px;
+  width: 300px;
+  height: 300px;
 }/*# sourceMappingURL=styles.css.map */

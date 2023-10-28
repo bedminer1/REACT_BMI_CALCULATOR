@@ -31,8 +31,9 @@ function App() {
         </label>
       </div>
       <div>
-        your BMI is {BMIoutput}
+        your BMI is
       </div>
+      <div className='bmi-container'>{BMIoutput}</div>
 
 
     </div>
