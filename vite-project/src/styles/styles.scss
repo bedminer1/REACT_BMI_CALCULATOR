@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(22, 22, 25);
+    color: wheat;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.height-input:focus, .weight-input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    translate: 0px, 0px;
+}

@@ -18,16 +18,16 @@ function App() {
   
 
   return (
-    <div>
+    <div className='main'>
       <h1>BMI Calculator</h1>
       <div>
         <label htmlFor="height">
-        Height: <input type="number" onChange={(e) => setHeight(e.target.value)}></input>
+        Height: <input type="numeric" className='height-input' onChange={(e) => setHeight(e.target.value)}></input>
         </label>
       </div>
       <div>
         <label htmlFor="weight">
-        Weight: <input type="number" onChange={(e) => setWeight(e.target.value)}></input>
+        Weight: <input type="numeric" className='weight-input' onChange={(e) => setWeight(e.target.value)}></input>
         </label>
       </div>
       <div>
